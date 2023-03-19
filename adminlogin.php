@@ -1,13 +1,13 @@
 <!DOCTYPE html>
   <head>
     <title>Login form</title>
-    <link rel="style" href="style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="bg-img">
       <div class="content">
-        <header>User Login Form</header>
-        <form action="usercheck.php" method="POST">
+        <header>Admin Login Form</header>
+        <form action="logincheck.php" method="POST">
           <div class="field">
             <span class="fam"></span>
             <input type="text" required placeholder="Username/Email id" name="username">
